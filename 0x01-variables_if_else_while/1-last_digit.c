@@ -2,7 +2,6 @@
 #include <time.h>
 #include <stdlib.h>
 /**
- *
  * main - main block
  * Description: Get a random number and check its last digit, compare it with 5
  * Return: 0
@@ -13,7 +12,7 @@ int main(void)
 	int n, digit;
 
 	srand(time(0));
-	n = rand() - RAND_MAX / 2;					/*my code*/
+	n = rand() - RAND_MAX / 2;				
 
 	digit = n % 10; /*gets last digit*/				if (digit > 5)
 		printf("Last digit of %i is %i and is greater than 5\n", n, digit)
