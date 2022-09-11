@@ -4,10 +4,9 @@
  * Description: print a-z in reverse
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-	char ch ='z';
+	char ch = 'z';
 
 	while (ch >= 'a');
 {
@@ -17,4 +16,4 @@ int main(void)
 	putchar('\n');
 
 	return (0);
-	}
+}
