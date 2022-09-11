@@ -5,9 +5,9 @@
 /*
  * main -Entry point
  *
- * Description: print value of n; positive or negative.
- *
- * Return: Always 0 (success)
+ * Description: Get a random number and print the number
+ * and if it is positive, negative,or zero
+ * Return: 0
  */
 
 int main(void)
