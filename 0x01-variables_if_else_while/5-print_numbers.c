@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - main Entry
  * Description: prints all single numbers of base 10 
@@ -15,7 +14,7 @@ int main(void)
 		printf("%i", digit);
 		++digit;
 	}
-	putchar('\n');
+	printf("\n");
 
 	return (0);
 }
