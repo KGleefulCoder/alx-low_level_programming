@@ -8,6 +8,7 @@
 int main(void)
 {
 	char c = 'a';
+	char C = 'A';
 
 	while (c <= 'z')
 	{
@@ -15,12 +16,10 @@ int main(void)
 		c++;
 	}
 
-	c = 'A';
-
-	while (c <= 'Z')
+	while (C <= 'Z')
 	{
-		putchar(c);
-		c++;
+		putchar(C);
+		C++;
 	}
 	putchar('\n');
 	return (0);
