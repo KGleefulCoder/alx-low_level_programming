@@ -3,7 +3,7 @@
 /**
  * main - entry point for the program.
  *
- * Decription - A C Program taht prints with printf function
+ * Description - A C Program taht prints with printf function
  *
  * Return - 0 if no errors, return non zero if errors.
  */
