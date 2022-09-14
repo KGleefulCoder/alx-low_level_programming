@@ -1,5 +1,6 @@
 #include"main.h"
 #include<stdio.h>
+
 /**
  * print_to_98 - print n to 98 counts seperated by coma,
  * followed by space and number should be printed in order
@@ -10,7 +11,7 @@ void print_to_98(int n)
 {
 	int count;
 
-	if (n> 98)
+	if (n > 98)
 		for (count = n; count > 98; --count)
 			printf("%d", count);
 	else
