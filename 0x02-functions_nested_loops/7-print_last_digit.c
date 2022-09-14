@@ -6,21 +6,21 @@
  * Return: lastDigit
  */
 
-int print_last_Digit(int n)
+int print_last_digit(int n)
 {
-	int last_Digit;
+	int last_digit;
 
 	if (n < 0)
 	{
-		last_Digit = -1 * (n % 10);
-		_putchar(last_Digit + 48);
-		return (last_Digit);
+		last_digit = -1 * (n % 10);
+		_putchar(last_digit + 48);
+		return (last_digit);
 	}
 	else
 	{
-		last_Digit = n % 10;
+		last_digit = n % 10;
 
-	_putchar(last_Digit + 48);
-	return (last_Digit);
+	_putchar(last_digit + 48);
+	return (last_digit);
 	}
 }
