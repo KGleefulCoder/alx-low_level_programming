@@ -1,6 +1,6 @@
 #include"main.h"
 #include<stdio.h>
-
+#include<math.h>
 /**
  * main - Entry point
  * Description: prints the sum of even-values fibonacci
