@@ -1,9 +1,9 @@
 #include"main.h"
 
 /**
- * print_line - print a straight line
- * @n: is the number oftimes the _ character
- * should be printed
+ * print_line - prints line using "_" character
+ * of n length
+ * @n: length of the line
  */
 
 void print_line(int n)
