@@ -23,7 +23,7 @@ int main(void)
 			max = i;
 			n = n / i;
 		}
-		i + 2;
+		i += 2;
 	}
 	if (n > 2)
 		max = n;
