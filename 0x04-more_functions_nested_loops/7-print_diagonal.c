@@ -1,9 +1,9 @@
 #include"main.h"
 
 /**
- * print_diagonal - print a diagonal line
- * @n: length of the line
- * Return: void
+ * print_diagonal -print a diaginal line
+ * @n: is the number of times the \ character
+ * should be printed
  */
 
 void print_diagonal(int n)
