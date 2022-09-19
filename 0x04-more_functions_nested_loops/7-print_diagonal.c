@@ -4,22 +4,31 @@
  * print_diagonal -print a diaginal line
  * @n: is the number of times the \ character
  * should be printed
+ * Return: void
  */
 
 void print_diagonal(int n)
 {
-	int postn, space;
+	int i = 1;
 
-	if (n <= 0)
-		_putchar('\n');
-	else
+	if (n > 0)
 	{
-		for(postn = 1; postn <= n; ++postn)
+		_putchar(92);
+
+		while (i < n)
 		{
-			for (space = 1; space <= postn; ++space)
+			int count = 0;
+
+			_putchar('\n');
+			while (count < i)
+			{
 				_putchar(' ');
-			putchar(92);
-			putchar('\n');
+				count++;
+			}
+			_putchar(92);
+			i++;
 		}
 	}
+	_putchar('\n');
 }
+
