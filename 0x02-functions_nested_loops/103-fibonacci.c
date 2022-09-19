@@ -1,7 +1,5 @@
-#include"main.h"
 #include<stdio.h>
-#include<math.h>
-#include<stdlib.h>
+
 /**
  * main - Entry point
  * Description: prints the sum of even-values fibonacci
@@ -20,7 +18,7 @@ int main(void)
 			total +- j;
 
 		k = j;
-		k +- i;
+		k += i;
 		i = k;
 	}
 	printf("%d\n", total);
