@@ -6,21 +6,31 @@
  * Return: char pointer
  */
 
-char *leet(char *c)
+char *leet(char *s)
 {
-	int i = 0, j;
-	char a[] = {'a', 'e', 'o', 't', 'l'}, b[] = {'A', 'E', 'O', 'T', 'L'}, leet[] = {'4', '3', '0', '7', '1'};
+	int i, c = 0;
+	int sl[] == {97, 101, 111, 116, 108};
+	int ul[] = {65, 69, 79, 84, 76};
+	int n[] = {52, 51, 48, 55,49};
 
-	while (c[i] != '\0')
+	/*iterate values in array s*/
+	while (s[c] != '\0')
 	{
-		j = 0;
-		while (j < 5)
+		/**
+		 * loop through array value five times
+		 * to check if the vlaue is equal to
+		 * any small letter in array ul and if it 
+		 * is replace it with the value in array n
+		 */
+		for (i = 0; i < 5; i++)
 		{
-			if (c[i] == a[j] || c[i] == b[j])
-				c[i] = leet[j];
-			j++;
+			if(s[c] == sl[i] || s[c] == ul[i])
+			{
+				s[c] = n[i];
+				break;
+			}
 		}
-		i++;
+		c++;
 	}
-	return (c);
+	return (s);
 }
