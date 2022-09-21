@@ -1,9 +1,9 @@
-#include"main"
+#includ "main"
 
 /**
- * leet - converts string to leet
- * @c: character string pointer
- * Return: char pointer
+ * leet - a functgion that encodes a string into 1337
+ * @s: string input
+ * Return: @s
  */
 
 char *leet(char *s)
@@ -33,4 +33,4 @@ char *leet(char *s)
 		c++;
 	}
 	return (s);
-}
+}i
