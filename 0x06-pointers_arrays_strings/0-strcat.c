@@ -8,18 +8,20 @@
  * Retun: pointer to tresulting string @dest
  */
 
-char *strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
-	int c, c2;
+	int i = 0, j = 0;
+	char *p;
 
-	c = 0;
-	/*find the size of dest array*/
-	while (dest[c])
-		c++;
-
-	/* iterate through each src array value without  the null byte */
-	for (c2 = 0; src[c2]; c2++)
-		/* append src[c2] to dest[c] while overwriting the null byte in dest */
-		dest[c++] = src[c2];
-	return (dest);
+	while (*(dest + i) != '\0')
+		i++;
+	while (*(src + j) != '\0')
+	{
+		*(dest + i) = *(src + j);
+		i++;
+		j++;
+	}
+	*(dest + i) = '\0';
+	p = dest;
+	return (p);
 }
