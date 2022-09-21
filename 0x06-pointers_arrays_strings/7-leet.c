@@ -1,36 +1,26 @@
-#includ "main"
+#include "main.h"
 
-/**
- * leet - a functgion that encodes a string into 1337
- * @s: string input
- * Return: @s
+/** leet - converts string to leet
+ * @c: character string pointer
+ * Return: char pointer
  */
 
-char *leet(char *s)
+char *leet(char *c)
 {
-	int i, c = 0;
-	int sl[] = {97, 101, 111, 116, 108};
-	int ul[] = {65, 69, 79, 84, 76};
-	int n[] = {52, 51, 48, 55,49};
+	int i = 0, j;
+	char a[] = {'a', 'e', 'o', 't', 'l'}, b[] = {'A', 'E', 'O', 'T', 'L'},
+	leet[] = {'4', '3', '0', '7', '1'};
 
-	/*iterate values in array s*/
-	while (s[c] != '\0')
+	while (c[i] != '\0')
 	{
-		/**
-		 * loop through array value five times
-		 * to check if the vlaue is equal to
-		 * any small letter in array ul and if it 
-		 * is replace it with the value in array n
-		 */
-		for (i = 0; i < 5; i++)
+		j = 0;
+		while (j < 5)
 		{
-			if(s[c] == sl[i] || s[c] == ul[i])
-			{
-				s[c] = n[i];
-				break;
-			}
+			if (c[i] == a[j] || c[i] == b[j])
+				c[i] = leet[j];
+			j++;
 		}
-		c++;
+		i++;
 	}
-	return (s);
-}i
+	return (c);
+}
