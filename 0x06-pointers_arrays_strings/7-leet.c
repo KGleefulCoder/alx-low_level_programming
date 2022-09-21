@@ -1,6 +1,7 @@
 #include "main.h"
 
-/** leet - converts string to leet
+/**
+ * leet - converts string to leet
  * @c: character string pointer
  * Return: char pointer
  */
@@ -9,7 +10,7 @@ char *leet(char *c)
 {
 	int i = 0, j;
 	char a[] = {'a', 'e', 'o', 't', 'l'}, b[] = {'A', 'E', 'O', 'T', 'L'},
-	leet[] = {'4', '3', '0', '7', '1'};
+	     leet[] = {'4', '3', '0', '7', '1'};
 
 	while (c[i] != '\0')
 	{
