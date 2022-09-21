@@ -1,7 +1,9 @@
 #include"main.h"
 
-/** cap_string - capitalizes chars in a string following a seperator
- * @c: character string pointer
+/**
+ * cap_string - capitalizes chars in a string following
+ * a seperator
+ * @c: characterstring pointer
  * Return: char pointer
  */
 
