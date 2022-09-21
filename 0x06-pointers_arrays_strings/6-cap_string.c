@@ -5,7 +5,7 @@
  * Return: char pointer
  */
 
-char *cap-sting(char *c)
+char *cap_string(char *c)
 {
 	int i = 0, j,
 	    sep[] = {32, '\t', 11, '\n', 44, 59, 46, 33, 63, 34, 40, 41, 123, 125};
@@ -21,7 +21,7 @@ char *cap-sting(char *c)
 			{
 				if (c[i -1] == sep[j])
 				{
-					c[i] -+ 32;
+					c[i] -= 32;
 					break;
 				}
 				j++;
