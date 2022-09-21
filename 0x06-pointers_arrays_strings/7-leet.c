@@ -1,4 +1,4 @@
-#include"main.h"
+#include"main"
 
 /**
  * leet - converts string to leet
@@ -9,7 +9,7 @@
 char *leet(char *c)
 {
 	int i = 0, j;
-	char a[] = {'a', 'e', '0', 't', 'l'}, b[] = {'A', 'E', 'O', 'T', 'L'}, leet[] = {'4', '3', '0', '7', '1'};
+	char a[] = {'a', 'e', 'o', 't', 'l'}, b[] = {'A', 'E', 'O', 'T', 'L'}, leet[] = {'4', '3', '0', '7', '1'};
 
 	while (c[i] != '\0')
 	{
