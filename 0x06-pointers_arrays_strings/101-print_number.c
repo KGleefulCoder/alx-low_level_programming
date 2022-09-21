@@ -1,4 +1,4 @@
-#include"main.h"
+#include "main.h"
 
 /**
  * print_number - function to print int using _putchar
@@ -17,7 +17,7 @@ void print_number(int num)
 	n = num;
 	if (n < d)
 	{
-		_putchar('0 + n);
+		_putchar('0' + n);
 	}
 	else
 	{
