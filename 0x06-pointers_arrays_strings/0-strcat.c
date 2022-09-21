@@ -5,7 +5,7 @@
  * a new string
  * @dest: string 1
  * @src: string 2
- * Retun: pointer to tresulting string @dest
+ * Retu: char pointer
  */
 
 char *_strcat(char *dest, char *src)
