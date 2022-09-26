@@ -23,7 +23,7 @@ unsigned int _strspn(char *s, char *accept)
 			}
 		}
 		if (len != 0)
-			match ++;
+			match++;
 				if (match != len)
 					return (len);
 	}
