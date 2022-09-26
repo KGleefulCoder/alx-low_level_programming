@@ -19,7 +19,7 @@ void print_diagsums(int *a, int size)
 		diag_sum += a[i];
 		i += size + 1;
 	}
-	printf("%d, " diag_sum);
+	printf("%d, ", diag_sum);
 	i = size - 1;
 	diag_sum = 0;
 	while (i < len - size + 1)
@@ -27,5 +27,5 @@ void print_diagsums(int *a, int size)
 		diag_sum += a[i];
 		i += size - 1;
 	}
-	printf(%d\n", diag_sum);
+	printf("%d\n", diag_sum);
 }
