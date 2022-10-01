@@ -38,7 +38,7 @@ unsigned int coin_count(unsigned int count, int num)
 {
 	unsigned int sum = 0;
 
-	while (!(sum +25 > (unsigned int)num))
+	while (!(sum + 25 > (unsigned int)num))
 	{
 		sum += 25;
 		count++;
@@ -51,7 +51,7 @@ unsigned int coin_count(unsigned int count, int num)
 	while (!(sum + 5 > (unsigned int)num))
 	{
 		sum += 5;
-		count ++
+		count++;
 	}
 	while (!(sum + 2 > (unsigned int)num))
 	{
