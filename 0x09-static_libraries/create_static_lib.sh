@@ -1,4 +1,9 @@
 #!/bin/bash
 
-gcc -Wall -pendantic -Werror -Wextra -c *.c
-ar -rc liball.a *.o
+# a script that creates a static library
+# called liball.a from all the .c files
+# that are in the curent directory
+
+gcc -c *.c
+ar rc liball.a *.o
+echo y | rm -I *.o
