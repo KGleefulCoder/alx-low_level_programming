@@ -1,4 +1,4 @@
-nclude <stdlib.h>
+#include <stdlib.h>
 
 /**
  * *string_nconcat - concatenates 2 strings
