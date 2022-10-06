@@ -9,10 +9,10 @@
 
 void *malloc_checked(unsigned int b)
 {
-	void *arr;
+	void *new_mem;
 
-	arr = malloc(b);
-	if (arr == NULL)
+	new_mem = malloc(b);
+	if (new_mem == NULL)
 		exit(98);
-	return (arr);
+	return (new_mem);
 }
