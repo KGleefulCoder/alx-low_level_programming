@@ -65,7 +65,7 @@ int _strlen(char *s)
 int main(int argc, char *argv[])
 {
 	int length, c, prod, i, j, l1, l2;
-	int *red;
+	int *res;
 
 	if ((argc != 3 || !(_isNum(argv[1]))) || !(_isNum(argv[2])))
 		puts("Error"), exit(98);
