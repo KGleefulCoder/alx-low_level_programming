@@ -7,9 +7,8 @@
  * @name: name of the dog
  * @age: age of the dog
  * @owner: owner of the dog
- * Description: hols all data needed for dog
+ * Description: hod all data needed for dog
  */
-
 struct dog
 {
 	char *name;
